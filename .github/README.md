@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-mq`](https://www.npmjs.com/package/@aws-sdk/client-mq/v/3.1101.0).
+[`@aws-sdk/client-mq`](https://www.npmjs.com/package/@aws-sdk/client-mq/v/3.1102.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-mq - [https://cloud-sdk-builds.github.io/?sdk=client-mq](https://cloud-sdk-builds.github.io/?sdk=client-mq)
-- @aws-sdk/client-mq v3.1101.0 - [https://cloud-sdk-builds.github.io/?sdk=client-mq&version=3.1101.0](https://cloud-sdk-builds.github.io/?sdk=client-mq&version=3.1101.0)
+- @aws-sdk/client-mq v3.1102.0 - [https://cloud-sdk-builds.github.io/?sdk=client-mq&version=3.1102.0](https://cloud-sdk-builds.github.io/?sdk=client-mq&version=3.1102.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mq@3.1101.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mq@3.1102.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Z5HPCy2XRO61HTC4Kh/b4oXHQtip8c9zI2N7iTLd0PoPIK96Sp5bSOopXO9I3pnR
+sha384-5bZ2zFDPuUJDQXQjfX6KAT5okDJjX6fUzw+vlES18E2rukfdDeqxJNuxvt/teULf
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-mq": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mq@3.1101.0/index.min.mjs"
+            "@aws-sdk/client-mq": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mq@3.1102.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mq@3.1101.0/index.min.mjs": "sha384-Z5HPCy2XRO61HTC4Kh/b4oXHQtip8c9zI2N7iTLd0PoPIK96Sp5bSOopXO9I3pnR"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mq@3.1102.0/index.min.mjs": "sha384-5bZ2zFDPuUJDQXQjfX6KAT5okDJjX6fUzw+vlES18E2rukfdDeqxJNuxvt/teULf"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-mq": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mq@3.1101.0/index.min.mjs"
+                        "@aws-sdk/client-mq": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mq@3.1102.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mq@3.1101.0/index.min.mjs": "sha384-Z5HPCy2XRO61HTC4Kh/b4oXHQtip8c9zI2N7iTLd0PoPIK96Sp5bSOopXO9I3pnR"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mq@3.1102.0/index.min.mjs": "sha384-5bZ2zFDPuUJDQXQjfX6KAT5okDJjX6fUzw+vlES18E2rukfdDeqxJNuxvt/teULf"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1101.0`)
+* Always pin to a specific version (`@3.1102.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-mq/blob/refs/tags/3.1101.0/LICENSE
+https://github.com/cloud-sdk-builds/client-mq/blob/refs/tags/3.1102.0/LICENSE
 ```
 
 ---
